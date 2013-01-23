@@ -31,7 +31,7 @@ public class HelloJME3 extends SimpleApplication{
         mat.setColor("Color", ColorRGBA.Blue); // set color of material to blue
         geom.setMaterial(mat); // set the cube's material
         rootNode.attachChild(geom); // make the cube appear in the scene
-        System.out.println("test");
+        
     }
     
 }
